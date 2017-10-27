@@ -84,7 +84,7 @@ public class ChooseAreaFragment extends Fragment {
                     queryCounties();
                 }
                 else if(currentLevel == LEVEL_COUNTY)
-                    Toast.makeText(getContext(),"已经到底了",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),"已经到底了",Toast.LENGTH_LONG).show();
             }
         });
         backButton.setOnClickListener(new View.OnClickListener(){
